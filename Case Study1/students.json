@@ -1,0 +1,32 @@
+{
+    "s101": {
+        "pid": "s101",
+        "name": "abhi",
+        "department": "cse",
+        "semester": 6,
+        "_marks": [
+            90,
+            98,
+            89,
+            88,
+            87
+        ],
+        "courses": [
+            "data structures"
+        ]
+    },
+    "s102": {
+        "pid": "s102",
+        "name": "Raj",
+        "department": "cse",
+        "semester": 6,
+        "_marks": [
+            89,
+            76,
+            89,
+            87,
+            76
+        ],
+        "courses": []
+    }
+}
