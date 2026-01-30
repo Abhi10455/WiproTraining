@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.11.9 on darwin)" generated="2026-01-30T22:10:19.185242" rpa="false" schemaversion="5">
+<suite id="s1" name="TC006" source="/Users/abhinay/Day12 ClassTraining/RobotFW/TC006.robot">
+<kw name="Open TutorialsNinja" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-30T22:10:19.297909" level="INFO">Opening browser 'chrome' to base url 'https://tutorialsninja.com/demo/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-30T22:10:19.297780" elapsed="3.748684"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-01-30T22:10:23.049382" elapsed="0.362614"/>
+</kw>
+<status status="PASS" start="2026-01-30T22:10:19.297452" elapsed="4.114644"/>
+</kw>
+<test id="s1-t1" name="Register Login Using Excel" line="58">
+<kw name="Register And Login With Excel">
+<msg time="2026-01-30T22:10:23.413066" level="FAIL">Keyword 'Register And Login With Excel' expected 5 arguments, got 2.</msg>
+<arg>Log</arg>
+<arg>Executed via DataDriver</arg>
+<status status="FAIL" start="2026-01-30T22:10:23.412944" elapsed="0.000151">Keyword 'Register And Login With Excel' expected 5 arguments, got 2.</status>
+</kw>
+<status status="FAIL" start="2026-01-30T22:10:23.412541" elapsed="0.000686">Keyword 'Register And Login With Excel' expected 5 arguments, got 2.</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-30T22:10:23.413501" elapsed="0.097419"/>
+</kw>
+<status status="FAIL" start="2026-01-30T22:10:19.186167" elapsed="4.324952"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC006" id="s1" pass="0" fail="1" skip="0">TC006</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-01-30T22:10:19.297005" level="ERROR">Error in file '/Users/abhinay/Day12 ClassTraining/RobotFW/TC006.robot' on line 3: Importing library 'DataDriver' failed: ModuleNotFoundError: No module named 'DataDriver'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.11/bin
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python311.zip
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages</msg>
+</errors>
+</robot>
