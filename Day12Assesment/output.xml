@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.11.9 on darwin)" generated="2026-01-30T10:28:08.794509" rpa="false" schemaversion="5">
+<suite id="s1" name="Question1" source="/Users/abhinay/Day12Assesment/FW/Question1.robot">
+<test id="s1-t1" name="Test Case 1 - Logging Messages" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T10:28:08.812096" level="INFO">Starting Test Case 1</msg>
+<arg>Starting Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.811967" elapsed="0.000160"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Hello ${NAME}, welcome to ${COURSE}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.812200" elapsed="0.000122"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T10:28:08.812458" level="INFO">This message goes to the log file</msg>
+<arg>This message goes to the log file</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.812376" elapsed="0.000101"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Test Case 1 Completed</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.812527" elapsed="0.000092"/>
+</kw>
+<status status="PASS" start="2026-01-30T10:28:08.811672" elapsed="0.001000"/>
+</test>
+<test id="s1-t2" name="Test Case 2 - Using Variables" line="16">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Demonstrating scalar and list variables</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.812851" elapsed="0.000191"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T10:28:08.813375" level="INFO">Name is: Abhinay</msg>
+<arg>Name is: ${NAME}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.813137" elapsed="0.000263"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T10:28:08.813679" level="INFO">Course is: Robot Framework</msg>
+<arg>Course is: ${COURSE}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.813501" elapsed="0.000199"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Numbers list: @{NUMBERS}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.813768" elapsed="0.000133"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-01-30T10:28:08.814244" level="INFO">${sum} = 100</msg>
+<var>${sum}</var>
+<arg>sum(int(x) for x in ${NUMBERS})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.813985" elapsed="0.000301"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Sum of numbers is ${sum}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.814332" elapsed="0.000099"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T10:28:08.814537" level="INFO">Test Case 2 Completed Successfully</msg>
+<arg>Test Case 2 Completed Successfully</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T10:28:08.814472" elapsed="0.000080"/>
+</kw>
+<status status="PASS" start="2026-01-30T10:28:08.812743" elapsed="0.001856"/>
+</test>
+<status status="PASS" start="2026-01-30T10:28:08.795067" elapsed="0.019820"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Question1" id="s1" pass="2" fail="0" skip="0">Question1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
