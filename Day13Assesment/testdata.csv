@@ -1,0 +1,4 @@
+${username},${password},${expected}
+admin,admin123,TRUE
+admin,wrongpass,FALSE
+username,admin123,FALSE
