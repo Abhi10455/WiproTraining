@@ -1,0 +1,17 @@
+1769748017664	geckodriver	INFO	Listening on 127.0.0.1:54865
+1769748017737	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Users/abhinay/.cache/ ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0c/54wrz86s5snf2k6p0t_v5qn00000gn/T/rust_mozprofileh57Wgr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1769748019588	Marionette	INFO	Marionette enabled
+2026-01-30 04:40:19.814 Firefox GPU Helper[24613:8691873] Failure on line 688 in function id scheduleApplicationNotification(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, &code, 0, NULL, NULL, NULL)
+2026-01-30 04:40:19.984 Firefox GPU Helper[24613:8691873] Error received in message reply handler: Connection invalid
+2026-01-30 04:40:19.984 Firefox GPU Helper[24613:8691905] Connection Invalid error for service com.apple.hiservices-xpcservice.
+1769748020179	Marionette	INFO	Listening on port 54876
+WebDriver BiDi listening on ws://127.0.0.1:54866
+Read port: 54876
+1769748020326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 4427: TypeError: can't access property "closedGroups", winData is undefined
+1769748248618	Marionette	INFO	Stopped listening on port 54876
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
