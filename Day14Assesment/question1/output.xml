@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.11.9 on darwin)" generated="2026-02-02T14:36:35.893927" rpa="false" schemaversion="5">
+<suite id="s1" name="Setup Teardown" source="/Users/abhinay/Day14Assesment/question1/setup_teardown.robot">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>=== Suite Setup: Before All Test Cases ===</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-02T14:36:35.911700" elapsed="0.000164"/>
+</kw>
+<test id="s1-t1" name="Regression Test Case" line="13">
+<kw name="Log To Console" owner="BuiltIn" type="SETUP">
+<arg>--- Test Setup: Before Each Test ---</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-02T14:36:35.912509" elapsed="0.000115"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Executing Regression Test Case</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-02T14:36:35.912841" elapsed="0.000102"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${True}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-02-02T14:36:35.912997" elapsed="0.000132"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>--- Test Teardown: After Each Test ---</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-02T14:36:35.913213" elapsed="0.000099"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" start="2026-02-02T14:36:35.911927" elapsed="0.001413"/>
+</test>
+<kw name="Log To Console" owner="BuiltIn" type="TEARDOWN">
+<arg>=== Suite Teardown: After All Test Cases ===</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-02-02T14:36:35.913520" elapsed="0.000338"/>
+</kw>
+<status status="PASS" start="2026-02-02T14:36:35.894530" elapsed="0.019393"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat name="Setup Teardown" id="s1" pass="1" fail="0" skip="0">Setup Teardown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
